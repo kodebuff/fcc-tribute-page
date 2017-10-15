@@ -1,13 +1,9 @@
-/* font-family: 'Overpass', sans-serif;
-font-family: 'Roboto', sans-serif; */
-
 body {
   margin-top: 0;
   font-family: 'Roboto';
 }
 
 h1 {
-  font-family: 'Overpass', sans-serif;
   font-size: 75px;
   font-weight: bold;
   text-transform: uppercase;
@@ -15,9 +11,15 @@ h1 {
   padding-top: 50px;
 }
 
-h3 {
+h2 {
   margin: 0;
   padding: 20px 0;
+  font-weight: bolder;
+}
+
+li {
+  padding-top: 10px;
+  font-size: 1.25em;
 }
 
 .full-width {
@@ -38,6 +40,14 @@ h3 {
   padding: 0;  
 }
 
+.highlight {
+  background: white;
+  font-weight: bolder;
+  border-radius: 3px;
+}
+
 .footer {
+  text-align: center;
   padding-top: 50px;
+  font-weight: bold;
 }
